@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Portofolio Paxx, developer web yang suka belajar, membangun, dan terus berkembang.">
+    <meta name="theme-color" content="#000000">
+
+    <title>Paxx | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+    <div class="ambient" aria-hidden="true"><i></i><i></i></div>
+
+    <!-- NAVBAR -->
+    <nav class="nav" aria-label="Navigasi utama">
+        <a href="#home" class="logo">Paxx<span>.</span></a>
+
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#tentang">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#proyek">Projects</a></li>
+            <li><a href="#kontak">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-content stagger">
+                <p class="intro"><i></i>Hello, welcome to my portfolio</p>
+
+                <h1>Halo, Saya Paxx</h1>
+
+                <h2>I'm a <span id="typing"></span></h2>
+
+                <p class="description">
+                    Saya seorang developer yang tertarik pada dunia teknologi,
+                    pemrograman, dan pengembangan website. Saya suka belajar,
+                    membangun, dan terus berkembang.
+                </p>
+
+                <div class="buttons">
+                    <a href="#proyek" class="btn">Lihat Proyek</a>
+                    <a href="https://github.com/paxxpi0oow" target="_blank"
+                       rel="noopener noreferrer" class="btn-glass">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="tentang">
+            <h2 class="section-title reveal">Tentang Saya</h2>
+
+            <div class="card about-content reveal">
+                <h3>Learn. Build. Improve.</h3>
+
+                <p>
+                    Halo! Saya Paxx, seorang programmer yang sedang
+                    mengembangkan kemampuan di bidang web development.
+                    Saya tertarik membuat website yang modern,
+                    responsif, dan memiliki tampilan menarik.
+                </p>
+
+                <p>
+                    Bagi saya, setiap proyek adalah kesempatan
+                    untuk belajar dan meningkatkan kemampuan.
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2 class="section-title reveal">My Skills</h2>
+
+            <div class="card skills-container stagger">
+                <div class="skill"><span class="icon" style="--a:#ff9f0a;--b:#ff453a">&lt;/&gt;</span><p>HTML</p></div>
+                <div class="skill"><span class="icon" style="--a:#64d2ff;--b:#0a84ff">#</span><p>CSS</p></div>
+                <div class="skill"><span class="icon" style="--a:#ffd60a;--b:#ff9f0a;color:#1c1c1e">JS</span><p>JavaScript</p></div>
+                <div class="skill"><span class="icon" style="--a:#bf5af2;--b:#5e5ce6">PHP</span><p>PHP</p></div>
+                <div class="skill"><span class="icon" style="--a:#30d158;--b:#0a9d58">DB</span><p>MySQL</p></div>
+                <div class="skill"><span class="icon" style="--a:#ff6482;--b:#d70015">Git</span><p>Git &amp; GitHub</p></div>
+                <div class="skill"><span class="icon" style="--a:#636366;--b:#1c1c1e">&gt;_</span><p>Termux</p></div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="proyek">
+            <h2 class="section-title reveal">My Projects</h2>
+
+            <div class="project-container stagger">
+
+                <article class="card project-card">
+                    <h3>Nusantara Web Pro</h3>
+                    <p>
+                        Website layanan pembuatan website profesional,
+                        mulai dari landing page, company profile,
+                        toko online, hingga custom web app.
+                    </p>
+                    <div class="tags">
+                        <span>PHP</span><span>MySQL</span><span>Web Development</span>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <h3>Battery Guard</h3>
+                    <p>
+                        Lightweight battery lifecycle manager
+                        untuk Termux dengan fitur notifikasi,
+                        logging, dan otomatisasi.
+                    </p>
+                    <div class="tags"><span>Shell</span><span>Termux</span></div>
+                    <a class="link" href="https://github.com/paxxpi0oow/battery-guard"
+                       target="_blank" rel="noopener noreferrer">Lihat Proyek</a>
+                </article>
+
+                <article class="card project-card">
+                    <h3>TX Cleaner</h3>
+                    <p>
+                        CLI tool untuk memindai dan membersihkan
+                        package cache di Termux.
+                    </p>
+                    <div class="tags"><span>Shell</span><span>CLI Tool</span></div>
+                    <a class="link" href="https://github.com/paxxpi0oow/tx-cleaner"
+                       target="_blank" rel="noopener noreferrer">Lihat Proyek</a>
+                </article>
+
+                <article class="card project-card">
+                    <h3>Termux Telegram Bot</h3>
+                    <p>
+                        Proyek bot Telegram berbasis Python
+                        untuk lingkungan Termux.
+                    </p>
+                    <div class="tags"><span>Python</span><span>Telegram Bot</span></div>
+                    <a class="link" href="https://github.com/paxxpi0oow/termux-telegram-bot"
+                       target="_blank" rel="noopener noreferrer">Lihat Proyek</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="kontak">
+            <h2 class="section-title reveal">Contact Me</h2>
+
+            <div class="card contact-card reveal">
+                <p>
+                    Tertarik bekerja sama atau ingin berdiskusi?
+                    Silakan hubungi saya.
+                </p>
+
+                <div class="buttons">
+                    <a href="https://github.com/paxxpi0oow" target="_blank"
+                       rel="noopener noreferrer" class="btn-glass">GitHub</a>
+                    <a href="mailto:emailkamu@gmail.com" class="btn">Email</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Paxx. All Rights Reserved.</p>
+        <p>Learn. Build. Improve.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
